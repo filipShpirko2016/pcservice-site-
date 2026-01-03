@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #0f1115;
+    color: #e6e6e6;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    color: #4da6ff;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 14px;
+    background: #181b22;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: #181b22;
+    border-radius: 14px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 12px;
+    color: #4da6ff;
+}
+
+.card ul {
+    margin-left: 20px;
+}
+
+.card li {
+    margin-bottom: 8px;
+}
+
+.download {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 14px 30px;
+    background: #4da6ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #79beff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    opacity: 0.6;
+}
